@@ -1,0 +1,70 @@
+<!-- Miguel Conde Luis -->
+
+<!-- Capítulo 10 - Ejercicio 13 -->
+
+<!DOCTYPE html>
+
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 10.13</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        
+    </head>
+    <body>
+        <!-- Header que muestra la informacion principal -->
+        
+        <header class="banner">
+            <h1 class="titulo-principal">Tarea 2: JavaScript | Capítulo X - Ejercicios</h1>
+            <h2 class="banner-informacion">
+                <b>/*Miguel Conde Luis | 197o01086*/</b> <br> <br>
+                Instituto Tecnológico Superior de Xalapa <br>
+                Ingeniería en Sistemas Computacionales - Programación Web 7A4-AEB1055
+            </h2>
+            <div class="boton-regresar">
+                <a href="/index.html">Inicio</a>
+            </div>
+        </header>
+       
+        <!-- Contenedor para la instraccioón -->
+        <section class="instruccion">
+            <p>
+                <strong>Ejercicio 10.13</strong> |<!-- Titulo -->
+                Etiquete los elementos del arreglo bidimensional de tres por cinco llamado ventas para indicar el orden en el que se deben establecer en cero mediante el siguiente segmento de programa:.<!-- Descripcion -->
+            </p>
+        </section>
+
+
+        <!-- Contenedot para el desarrollo -->
+        <section class="desarrollo">
+            <div>    
+                <p style="text-align: justify;">
+                    <b>for</b>(<b>var</b> fila <b>in</b> ventas){ <br>
+                    &emsp;<b>for</b>(<b>var</b> col <b>in</b> ventas[fila]){ <br>
+                    &emsp;&emsp;ventas[fila][col] = 0; <br>
+                    &emsp;} <br>
+                    }
+                </p>
+            </div>
+            <div>
+                <ol style="list-style: none;">
+                    <li>ventas[ 0 ][ 0 ]</li>
+                    <li>ventas[ 0 ][ 1 ]</li>
+                    <li>ventas[ 0 ][ 2 ]</li>
+                    <li>ventas[ 0 ][ 3 ]</li>
+                    <li>ventas[ 0 ][ 4 ]</li>
+                    <li>ventas[ 1 ][ 0 ]</li>
+                    <li>ventas[ 1 ][ 1 ]</li>
+                    <li>ventas[ 1 ][ 2 ]</li>
+                    <li>ventas[ 1 ][ 3 ]</li>
+                    <li>ventas[ 1 ][ 4 ]</li>
+                    <li>ventas[ 2 ][ 0 ]</li>
+                    <li>ventas[ 2 ][ 1 ]</li>
+                    <li>ventas[ 2 ][ 2 ]</li>
+                    <li>ventas[ 2 ][ 3 ]</li>
+                    <li>ventas[ 2 ][ 4 ]</li>
+                </ol>
+            </div>        
+        </section>
+    </body>
+</html>
