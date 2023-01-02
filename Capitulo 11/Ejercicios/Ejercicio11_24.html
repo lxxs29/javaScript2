@@ -1,0 +1,55 @@
+<!-- Miguel Conde Luis -->
+<!-- Capítulo 11 - Ejercicio 24 -->
+
+<!DOCTYPE html>
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 11.24</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="script/Ejercicio11_24.js"></script>
+    </head>
+    <body>
+        <!-- Header que muestra la informacion principal -->
+        
+        <header class="banner">
+            <h1 class="titulo-principal">Tarea 2: JavaScript | Capítulo XI - Ejercicios</h1>
+            <h2 class="banner-informacion">
+                <b>/*Miguel Conde Luis | 197o01086*/</b> <br> <br>
+                Instituto Tecnológico Superior de Xalapa <br>
+                Ingeniería en Sistemas Computacionales - Programación Web 7A4-AEB1055
+            </h2>
+            <div class="boton-regresar">
+                <a href="/index.html">Inicio</a>
+            </div>
+        </header>
+       
+        <!-- Contenedor para la instraccioón -->
+        <section class="instruccion">
+            <p>
+                <strong>Ejercicio 11.24</strong> |<!-- Titulo -->
+                <!-- Descripcion -->
+                <em>(Protección de cheques)</em> Las computadoras se utilizan con frecuencia en los sistemas de escritura de cheques, tales como aplicaciones para nóminas y para cuentas por pagar. Existen muchas historias extrañas acerca de cheques de nómina que se imprimen (por error) con montos que se exceden de $1 millón. Los sistemas de emisión de cheques computarizados imprimen cantidades incorrectas debido al error humano o a una falla de la máquina. Los diseñadores de sistemas construyen controles en sus sistemas para evitar la emisión de dichos cheques erróneos. <br>
+                Suponga que un cheque contiene ocho espacios en blanco, en los cuales la computadora puede imprimir el monto de un cheque de nómina semanal. Si el monto es grande, entonces se llenarán los ochos espacios. Por ejemplo: <br>
+                1,230.60 <em>(monto del cheque)</em>&emsp; <br>
+                12345678 <em>(números de posición)</em> <br>
+                Por otra parte, si el monto es menor de $1,000, entonces varios espacios quedarían vacíos. Por ejemplo:<br>
+                99.87 <br>
+                12345678 <br>
+                contiene tres espacios en blanco. Muchos sistemas de escritura de cheques insertan <em>asteriscos al principio</em> para proteger la cantidad. <br>
+                Escriba una secuencia de comandos que reciba como entrada un monto a imprimir sobre un cheque y que lo escriba mediante el formato de protección de cheques, con asteriscos al principio si es necesario. Suponga que existen nueve espacios disponibles para imprimir el monto.
+            </p>
+        </section>
+
+        <!-- Contenedot para el desarrollo -->
+        <section class="desarrollo">
+            <div>
+                <form action="#">
+                    <input type="number" id="campoNumero">
+                    <input type="button" value="Mostrar" id="imprimir">
+                </form>
+                <p id="resultado"></p>
+            </div>
+        </section>
+    </body>
+</html>

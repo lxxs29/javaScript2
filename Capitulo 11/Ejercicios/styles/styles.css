@@ -1,0 +1,145 @@
+/* Miguel Conde Luis */
+
+/* Hoja de estilos de CSS3 para el archivo index.html */
+/* fuente de letra */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0;
+    height: auto;
+    font-family: 'Poppins', sans-serif; 
+    /* background-image: linear-gradient(to bottom, #051937, #282853, #4e366c, #784281, #a54e90);
+    background-repeat: no-repeat; */
+    background-color: #1c2a44;
+    color: #fff;
+    
+}
+
+/* ---------------header------------------- */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+   /*  margin: 3em;
+    background-color: rgba(255, 255, 255, 0.073);
+    */
+    border-radius: 16px;
+    /* margin-bottom: -5em;  */
+    margin: 5%;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 25px 0;
+    border-radius: 25px;
+    border: 0.1px solid #099FFF;
+    background-color: #18181b81;
+    box-shadow: 0 4px 8px #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 290px;
+
+}
+
+.titulo-principal{
+    font-weight: 5px;
+    font-size: 2.8em;
+    
+}
+.banner-informacion{
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* botón regresar */
+.boton-regresar{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    margin-bottom: 2em;
+    font-size: 20px;
+    /* background-color: #051937; */
+    background-color: #275e8b;
+    
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    -webkit-transition-duration: 1s; 
+}
+.boton-regresar a{
+    color: #fff;
+    text-decoration: none;
+}
+.boton-regresar:hover{
+    background-color: #fff;
+    width: 440px;
+}
+.boton-regresar:hover a{
+    color: #000;
+    font-size: 1.1em;
+}
+
+/* ------------------instruccion------------------ */
+.instruccion{
+    background-color: rgba(255, 255, 255, 0.075);
+    width: 1000px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 16px;
+    bottom: 2.5em;
+    /* Acomodar el contenedor de la instruccion */
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* -------------------desarrollo---------------------- */
+.desarrollo{
+    background-color: rgba(255, 255, 255, 0.075);
+    width: 1300px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    border-radius: 16px;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    bottom: 2em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5em;
+    height: 50px;
+    background-color: #4e366c;
+}
+
+/* estilos para los cuestionarios */
+.ol-cuestionario{
+    list-style: lower-latin;
+}
+.lista-cuestionario{
+    text-align: justify;
+}
+.respuesta{
+    color: yellow;   
+}
+
+code{
+    font-size: 1.3em;
+}

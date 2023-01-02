@@ -1,0 +1,49 @@
+<!-- Miguel Conde Luis -->
+
+<!-- Capítulo 11 - Ejercicio 10 -->
+
+<!DOCTYPE html>
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 11.10</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="script/Ejercicio11_10.js"></script>
+    </head>
+    <body>
+        <!-- Header que muestra la informacion principal -->
+        <header class="banner">
+            <h1 class="titulo-principal">Tarea 2: JavaScript | Capítulo XI - Ejercicios</h1>
+            <h2 class="banner-informacion">
+                <b>/*Miguel Conde Luis | 197o01086*/</b> <br> <br>
+                Instituto Tecnológico Superior de Xalapa <br>
+                Ingeniería en Sistemas Computacionales - Programación Web 7A4-AEB1055
+            </h2>
+            <div class="boton-regresar">
+                <a href="/index.html">Inicio</a>
+            </div>
+        </header>
+       
+        <!-- Contenedor para la instraccioón -->
+        <section class="instruccion">
+            <p>
+                <strong>Ejercicio 11.10</strong> |<!-- Titulo -->
+                Escriba una aplicación que reciba como entrada un número telefónico como una cadena de la forma <b>(555)555-5555</b>. La aplicación deberá utilizar el método String split para extraer el código de área como un token, los primeros tres dígitos del número telefónico como otro token y los últimos cuatro dígitos del número telefónico como otro token. Muestre en pantalla el código de área en un campo de texto y el número telefónico de siete dígitos en otro campo de texto.<!-- Descripcion -->
+            </p>
+        </section>
+
+        <!-- Contenedot para el desarrollo -->
+        <section class="desarrollo">
+            <div>
+                <form action="#">
+                    <input type="text" name="Telefono" id="campoTelefono" pattern="^[(]?[0-9]{3}[)][0-9]{3}-[0-9]{4}" placeholder="(000)000-0000" required>
+                    <input type="submit" value="Separar" id="separar">
+                </form>
+                <p id="mensajes"></p>
+                <p id="campoArea"></p>
+                <p id="campoNumero"></p>
+            </div>
+        </section>
+
+    </body>
+</html>

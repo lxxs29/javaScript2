@@ -1,0 +1,49 @@
+<!-- Miguel Conde Luis -->
+<!-- Capítulo 11 - Ejercicio 27 -->
+
+<!DOCTYPE html>
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 11.27</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="script/Ejercicio11_27.js"></script>
+    </head>
+    <body>
+        <!-- Header que muestra la informacion principal -->
+        
+        <header class="banner">
+            <h1 class="titulo-principal">Tarea 2: JavaScript | Capítulo XI - Ejercicios</h1>
+            <h2 class="banner-informacion">
+                <b>/*Miguel Conde Luis | 197o01086*/</b> <br> <br>
+                Instituto Tecnológico Superior de Xalapa <br>
+                Ingeniería en Sistemas Computacionales - Programación Web 7A4-AEB1055
+            </h2>
+            <div class="boton-regresar">
+                <a href="/index.html">Inicio</a>
+            </div>
+        </header>
+       
+        <!-- Contenedor para la instraccioón -->
+        <section class="instruccion">
+            <p>
+                <strong>Ejercicio 11.27</strong> |<!-- Titulo -->
+                (Proyecto: un corrector ortográfico) Muchos paquetes populares de software de procesamiento de palabras cuentan con correctores ortográficos integrados. <br>
+                Diseñe e implemente una aplicación de correción ortográfica en JavaScript. Su programa debe mantener un arreglo de cadenas llamado listaDePalabras. Permita al usuario introducir cadenas. Su programa debe pedir al usuario que introduzca una palabra. La aplicación debe entonces buscar esa palabra en el arreglo listaDePalabras. Si la palabra se encuentra en el arreglo, su programa deberá imprimir "La palabra está escrita correctamente". En caso contrario "La palabra no está escrita correctamente". Después su aplicación debe tratar de localizar otras palabras en la listaDePalabras que puedan ser la palabra que el usuario trataba de escribir. Cuando encuentre una nueva palabra que concuerde con una en la listaDePalabras, imprima esa palabra en un mensaje como "¿Quiso decir "predeterminado"?"
+                <!-- Descripcion -->
+            </p>
+        </section>
+
+        <!-- Contenedot para el desarrollo -->
+        <section class="desarrollo">
+            <div>
+                <form action="#">
+                    <input type="text" id="campoPalabra">
+                    <input type="button" value="Comprobar" id="comprobar">
+                </form>
+                <p id="resultado"></p>
+            </div>
+        </section>
+
+    </body>
+</html>

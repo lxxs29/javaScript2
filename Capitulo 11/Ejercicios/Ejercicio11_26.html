@@ -1,0 +1,88 @@
+<!-- Miguel Conde Luis -->
+<!-- Capítulo 11 - Ejercicio 26 -->
+
+<!DOCTYPE html>
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 11.26</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="script/Ejercicio11_26.js"></script>
+    </head>
+    <body>
+        <!-- Header que muestra la informacion principal -->
+        
+        <header class="banner">
+            <h1 class="titulo-principal">Tarea 2: JavaScript | Capítulo XI - Ejercicios</h1>
+            <h2 class="banner-informacion">
+                <b>/*Miguel Conde Luis | 197o01086*/</b> <br> <br>
+                Instituto Tecnológico Superior de Xalapa <br>
+                Ingeniería en Sistemas Computacionales - Programación Web 7A4-AEB1055
+            </h2>
+            <div class="boton-regresar">
+                <a href="/index.html">Inicio</a>
+            </div>
+        </header>
+       
+        <!-- Contenedor para la instraccioón -->
+        <section class="instruccion">
+            <p>
+                <strong>Ejercicio 11.26</strong> |<!-- Titulo -->
+                <!-- Descripcion -->
+                (Programa de conversión métrica) Escriba una secuencia de comandos que ayude al usuario a realizar conversiones métricas. Su programa debe permitir al usuario especificar los nombres de las unidades como cadenas (es decir, centímetros, litros, gramos, etc., para el sistema métrico, y pulgadas, cuartos, libras, etc., para el sistema inglés) y debe responder a preguntas simples tales como: <br>
+                "¿Cuántas pulgadas hay en 2 metros?" <br>
+                "¿Cuántos litros hay en 10 cuartos?" <br>
+                Su programa debe reconocer conversiones inválidas. Por ejemplo, la pregunta: "¿Cuántos pies hay en 5 kilogramos?" <br>
+                no es correcta, debido a que los "pies" son unidades de longitud, mientras que los "kilogramos" son unidades de masa.
+            </p>
+        </section>
+
+        <!-- Contenedot para el desarrollo -->
+        <section class="desarrollo">
+            <div>
+                <p>
+                    Nota: Las unidades aceptadas son: <br>
+                    <table border="1px" style="float: left;">
+                        <tbody>
+                            <tr>
+                                <td rowspan="5">Longitud</td>
+                            </tr>
+                            <tr><td>pulgadas</td></tr>
+                            <tr><td>pies</td></tr>
+                            <tr><td>kilómetros</td></tr>
+                            <tr><td>metros</td></tr>
+                        </tbody>
+                    </table>
+                    <table border="1px" style="float: left;">
+                        <tbody>
+                            <tr>
+                                <td rowspan="5">Peso</td>
+                            </tr>
+                            <tr><td>libras</td></tr>
+                            <tr><td>onzas</td></tr>
+                            <tr><td>kilogramos</td></tr>
+                            <tr><td>gramos</td></tr>
+                        </tbody>
+                    </table>
+                    <table border="1px">
+                        <tbody>
+                            <tr>
+                                <td rowspan="5">Volumen</td>
+                            </tr>
+                            <tr><td>galones</td></tr>
+                            <tr><td>cuartos</td></tr>
+                            <tr><td>litros</td></tr>
+                            <tr><td>mililitros</td></tr>
+                        </tbody>
+                    </table>
+                </p>
+                <form action="#">
+                    ¿Cuant@s <input type="text" id="unidad1"> hay en <input type="number" id="cantidad"> <input type="text" id="unidad2">? <br> <br>
+                    <input type="button" value="Calcular" id="calcular">
+                </form>
+                <p id="resultado"></p>
+            </div>
+        </section>
+
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!-- Miguel Conde Luis -->
+<!-- Capítulo 11 - Ejercicio 23 -->
+
+<!DOCTYPE html>
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 11.23</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="Ejercicio11_23.html"></script>
+    </head>
+    <body>
+        <!-- Header que muestra la informacion principal -->
+        
+        <header class="banner">
+            <h1 class="titulo-principal">Tarea 2: JavaScript | Capítulo XI - Ejercicios</h1>
+            <h2 class="banner-informacion">
+                <b>/*Miguel Conde Luis | 197o01086*/</b> <br> <br>
+                Instituto Tecnológico Superior de Xalapa <br>
+                Ingeniería en Sistemas Computacionales - Programación Web 7A4-AEB1055
+            </h2>
+            <div class="boton-regresar">
+                <a href="/index.html">Inicio</a>
+            </div>
+        </header>
+       
+        <!-- Contenedor para la instraccioón -->
+        <section class="instruccion">
+            <p>
+                <strong>Ejercicio 11.23</strong> |<!-- Titulo -->
+                <!-- Descripcion -->
+                em>(Análisis de textos)</em> La disponibilidad de computadoras con capacidades de manipulación de cadenas ha dado como resultado algunos métodos interesantes para analizar los escritos de grandes autores. Se ha dado mucha importancia para saber si William Shakespeare escribió en realidad las obras que se le atribuyen. Algunos estudios creen que existe una gran evidencia que indica que en realidad fue Cristopher Marlowe quien escribió estas obras maestras. Los investigadores han utilizado computadoras para buscar similitudes en los escritos de estos dos autores. En este ejercicio se examinan tres métodos para analizar textos mediante una computadora. <br>
+                a) Escriba una aplicación que lea una línea de texto desde el teclado e imprima una tabla que indique el número de ocurrencias de cada letra del alfabeto en el texto. Por ejemplo, la frase: <em>Ser o no ser: ese es el dilema:</em><br> contiene una "a", ninguna "b", ninguna "c", etcétera. <br>
+                b) Escriba una secuencia de comandos que lea varias líneas de texto e imprima una tabla que indique el número de palabras de una letra, de dos letras, de tres letras, etc., que aparezcan en el texto. Por ejemplo, la frase: <em>¿Qué es más noble para el espíritu?</em> <br>
+                contiene: <br>
+                c) Escriba una aplicación que lea varias líneas de texto e imprima una tabla que indique el número de ocurrencias de cada palarba distinta en el texto. La primera versión de su programa debe incluir las palabras en la tabla, en el mismo orden en el cual aparecen en el texto. Por ejemplo, las líneas: <br>
+                <em>Ser o no ser: ese es el dilema:</em> <br>
+                <em>¿Qué es más noble para el espíritu?</em> <br>
+                contiene la palabra <em>"ser"</em> dos veces, la palabra <em>"o"</em> una vez, la palabra <em>"ese"</em> una vez, etc. Podría intentar obtener una impresión más interesante (y útil) en donde las palabras se listen por orden alfabético.
+            </p>
+        </section>
+
+        <!-- Contenedot para el desarrollo -->
+        <section class="desarrollo">
+            <div>
+                <form action="#">
+                    <input type="text" name="Texto" id="campoTexto">
+                    <input type="button" value="Método A" id="metodoA">
+                    <input type="button" value="Método B" id="metodoB">
+                    <input type="button" value="Método C" id="metodoC">
+                </form> <br>
+                <div id="resultadoA"></div>
+                <div id="resultadoB"></div>
+                <div id="resultadoC"></div>
+            </div>
+        </section>
+
+    </body>
+</html>
