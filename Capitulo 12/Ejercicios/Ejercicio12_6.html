@@ -1,0 +1,62 @@
+<!-- Miguel Conde Luis -->
+
+<!-- Capítulo 12 - Ejercicio 6 -->
+
+<!DOCTYPE html>
+
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 12.6</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="script/Ejercicio12_6.js"></script>
+    </head>
+    <body>
+        <!-- Header que muestra la informacion principal -->
+        
+        <header class="banner">
+            <h1 class="titulo-principal">Tarea 2: JavaScript | Capítulo XII - Ejercicios</h1>
+            <h2 class="banner-informacion">
+                <b>/*Miguel Conde Luis | 197o01086*/</b> <br> <br>
+                Instituto Tecnológico Superior de Xalapa <br>
+                Ingeniería en Sistemas Computacionales - Programación Web 7A4-AEB1055
+            </h2>
+            <div class="boton-regresar">
+                <a href="/index.html">Inicio</a>
+            </div>
+        </header>
+       
+        <!-- Contenedor para la instraccioón -->
+        <section class="instruccion">
+            <p>
+                <strong>Ejercicio 12.6</strong> |<!-- Titulo -->
+                Cree una página Web en la que al usuario se le permita seleccionar el color de fondo de la página y si va usar fuentes serif o sans serif. Después cambie el atributo style del elemento body según corresponda.<!-- Descripcion -->
+            </p>
+        </section>
+
+
+        <!-- Contenedot para el desarrollo -->
+        <section class="desarrollo">
+            <div style="text-align: center; line-height: 2.5em;">
+                <form action="#">
+                    <h1>Elige una configuración</h1>
+                    <label>
+                        Selecciona el color de fondo: 
+                        <input type="color" name="Color fondo" id="colorFondo">
+                    </label><br>
+                    Selecciona el tipo de letra: <br>
+                    <label>
+                        <input type="radio" name="Tipografia" value="serif" checked>
+                        Serif
+                    </label><br>
+                    <label>
+                        <input type="radio" name="Tipografia" value="sans-serif">
+                        Sans serif
+                    </label> <br><br>
+                    <input type="button" value="Cambiar" id="cambiar">
+                </form>
+            </div>
+        </section>
+
+    </body>
+</html>

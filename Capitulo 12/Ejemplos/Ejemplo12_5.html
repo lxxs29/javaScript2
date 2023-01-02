@@ -1,0 +1,59 @@
+<!-- Miguel Conde Luis -->
+
+<!-- Capítulo 12 -->
+
+<!DOCTYPE html>
+
+<!-- Fig. 12.18: ejemplo -->
+<!-- Estilos dinamicos utilizados para animación -->
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <title>visor de portadas de libros de Deitel</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="script/visorportadas.js"></script>
+    </head>
+    <body>
+        <!-- Header que muestra la informacion principal -->
+        
+        <header class="banner">
+            <h1 class="titulo-principal">Tarea 2: JavaScript | Capítulo XII - Ejercicios</h1>
+            <h2 class="banner-informacion">
+                <b>/*Miguel Conde Luis | 197o01086*/</b> <br> <br>
+                Instituto Tecnológico Superior de Xalapa <br>
+                Ingeniería en Sistemas Computacionales - Programación Web 7A4-AEB1055
+            </h2>
+            <div class="boton-regresar">
+                <a href="/index.html">Inicio</a>
+            </div>
+        </header>
+       
+        <!-- Contenedor para la instraccioón -->
+        <section class="instruccion">
+            <p>
+                <strong>Ejemplo 12.5</strong> |<!-- Titulo -->
+                Estilos dinamicos utilizados para animación.<!-- Descripcion -->
+            </p>
+        </section>
+
+        <!-- Contenedot para el desarrollo -->
+        <section class="desarrollo">
+            <div style="display: flex; align-items: stretch;">
+                <div id="imgprincip">
+                    <img src="img/fullsize/jhtp.jpg" alt="Imagen de portada normal">
+                </div>
+                <div id="miniaturas">
+                    <img src="img/thumbs/jhtp.jpg" id="jhtp" alt="Como programar en Java">
+                    <img src="img/thumbs/iw3htp.jpg" id="iw3htp" alt="Como programar en internet y World Wide Web">
+                    <img src="img/thumbs/cpphtp.jpg" id="cpphtp" alt="Como programar en C++">
+                    <img src="img/thumbs/jhtplov.jpg" id="jhtplov" alt="Como programar en Java LOV">
+                    <img src="img/thumbs/cpphtplov.jpg" id="cpphtplov" alt="Como programar en C++ LOV">
+                    <img src="img/thumbs/vcsharphtp.jpg" id="vcsharphtp" alt="Como programar en Visual C#">
+                </div>
+
+            </div>
+        </section>
+
+
+    </body>
+</html>

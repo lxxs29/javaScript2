@@ -1,0 +1,56 @@
+<!-- Miguel Conde Luis -->
+
+<!-- Capítulo 13 - Ejercicio 3 -->
+
+<!DOCTYPE html>
+
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 13.3</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="script/Ejercicio13_3.js"></script>
+        <style type="text/css">
+            .blue { background-color: blue; }
+            .red { background-color: red; }
+            .white { background-color: white; }
+            table { border: 1px solid black; background-color: white; }
+        </style>
+    </head>
+    <body>
+        <!-- Header que muestra la informacion principal -->
+        
+        <header class="banner">
+            <h1 class="titulo-principal">Tarea 2: JavaScript | Capítulo XIII - Ejercicios</h1>
+            <h2 class="banner-informacion">
+                <b>/*Miguel Conde Luis | 197o01086*/</b> <br> <br>
+                Instituto Tecnológico Superior de Xalapa <br>
+                Ingeniería en Sistemas Computacionales - Programación Web 7A4-AEB1055
+            </h2>
+            <div class="boton-regresar">
+                <a href="/index.html">Inicio</a>
+            </div>
+        </header>
+       
+        <!-- Contenedor para la instraccioón -->
+        <section class="instruccion">
+            <p>
+                <strong>Ejercicio 13.3</strong> |<!-- Titulo -->
+                Agregue una función para borrar al programa de dibujo de la figura 13.3. Pruebe a establecer el color de fondo de la tabla a la que se movió el ratón al color blanco <em>(white)</em> cuando presione la tecla <em>Alt</em>.<!-- Descripcion -->
+            </p>
+        </section>
+
+        <!-- Contenedot para el desarrollo -->
+        <section class="desarrollo">
+            <div>
+                <table id="lienzo" style="border-color: #fff; border-style: solid;">
+                    <caption style="width: 1000px;">
+                        Mantenga presionada Ctrl (o Control) para dibujar en azul. Mantenga presionada Mayús para dibujar en rojo. Mantenga presionada Alt para borrar.
+                    </caption>
+                    <tbody id="cuerpotabla"></tbody>
+                </table>
+            </div>
+        </section>
+
+    </body>
+</html>

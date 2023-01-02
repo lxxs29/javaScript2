@@ -1,0 +1,62 @@
+<!-- Miguel Conde Luis -->
+
+<!-- Capítulo 13 -->
+
+<!DOCTYPE html>
+
+<!-- Fig. 13.8: ejemplo -->
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <title>Un formulario que utiliza focus y blur</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="script/focusblur.js"></script>
+    </head>
+    <body>
+        <!-- Header que muestra la informacion principal -->
+        
+        <header class="banner">
+            <h1 class="titulo-principal">Tarea 2: JavaScript | Capítulo XIII - Ejercicios</h1>
+            <h2 class="banner-informacion">
+                <b>/*Miguel Conde Luis | 197o01086*/</b> <br> <br>
+                Instituto Tecnológico Superior de Xalapa <br>
+                Ingeniería en Sistemas Computacionales - Programación Web 7A4-AEB1055
+            </h2>
+            <div class="boton-regresar">
+                <a href="/index.html">Inicio</a>
+            </div>
+        </header>
+       
+        <!-- Contenedor para la instraccioón -->
+        <section class="instruccion">
+            <p>
+                <strong>Ejemplo 13.4</strong> |<!-- Titulo -->
+                Demostración de los eventos focus y blur.<!-- Descripcion -->
+            </p>
+        </section>
+
+        <!-- Contenedot para el desarrollo -->
+        <section class="desarrollo">
+           <div>
+            <form id = "myForm" action = "">
+                <p><label class = "fixed" for = "name">Nombre:</label>
+                   <input type = "text" id =  "name" 
+                      placeholder = "Enter name"></p>
+                <p><label class = "fixed" for = "email">E-mail:</label>
+                   <input type = "email" id = "email" 
+                      placeholder = "Ingresa tu e-mail"></p>
+                <p><label>Haga click aquí si le gusta este sitio 
+                   <input type = "checkbox" id =  "like"></label></p>
+                <p><label for = "comments">¿Comentarios?</p>
+                <textarea id =  "comments" 
+                   placeholder = "Escriba sus comentarios aquí"></textarea>
+                <p><input id = "submit" type = "submit"> 
+                   <input id = "reset" type = "reset"></p>
+             </form>
+             <p id = "helpText"></p>
+           </div>
+        </section>
+
+
+    </body>
+</html>

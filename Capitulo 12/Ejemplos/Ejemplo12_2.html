@@ -1,0 +1,79 @@
+<!-- Miguel Conde Luis -->
+
+<!-- Capítulo 12 -->
+
+<!DOCTYPE html>
+
+<!-- Fig. 12.4: ejemplo -->
+<!-- Funcionalidad básica del DOM
+ -->
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <title>Funcionalidad básica del DOM</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="script/dom.js"></script>
+    </head>
+    <body>
+        <!-- Header que muestra la informacion principal -->
+        
+        <header class="banner">
+            <h1 class="titulo-principal">Tarea 2: JavaScript | Capítulo XII - Ejercicios</h1>
+            <h2 class="banner-informacion">
+                <b>/*Miguel Conde Luis | 197o01086*/</b> <br> <br>
+                Instituto Tecnológico Superior de Xalapa <br>
+                Ingeniería en Sistemas Computacionales - Programación Web 7A4-AEB1055
+            </h2>
+            <div class="boton-regresar">
+                <a href="/index.html">Inicio</a>
+            </div>
+        </header>
+       
+        <!-- Contenedor para la instraccioón -->
+        <section class="instruccion">
+            <p>
+                <strong>Ejemplo 12.2</strong> |<!-- Titulo -->
+                Funcionalidad básica del DOM.<!-- Descripcion -->
+            </p>
+        </section>
+        <!-- Contenedot para el desarrollo -->
+        <section class="desarrollo">
+            <div>
+                <h1 id = "bigheading" class = "highlighted">
+                    [encabezadogrande] Modelo de objetos DHTML.</h1>
+                 <h3 id = "smallheading">[encabezadochico] Funcionalidad de elementos</h3>
+                 <p id = "para1">[para1] El modelo de objetos de documento (DOM) permite el acceso rápido y dinamico a todos los elementos en un docuemnto de HTML5 para manipularlos con JavaScript.</p>
+                 <p id = "para2">[para2]Para mayor información, revise la sección JavaScript y DOM del 
+                    <a id = "link" href = "http://www.deitel.com/javascript">
+                        [link] Centro de recursos de JavaScript</a>
+                        de Deitel.</a></p>
+                 <p id = "para3">[para3] Los siguientes botones demuestran: (lista)</p>
+                 <ul id = "list">
+                    <li id = "item1">[elemento1] g[elemento1] getElementById y parentNode</li>
+                    <li id = "item2">[elemento2] insertBefore y appendChild</li>
+                    <li id = "item3">[elemento3] replaceChild y removeChild</li>
+                 </ul>
+                 <div id = "nav" class = "nav">
+                    <form action = "#">
+                       <p><input type = "text" id = "gbi" value = "bigheading">
+                          <input type = "button" value = "Obtener por id"
+                             id = "byIdButton"></p>
+                       <p><input type = "text" id = "ins">
+                          <input type = "button" value = "Insertar antes"
+                             id = "insertButton"></p>
+                       <p><input type = "text" id = "append">
+                          <input type = "button" value = "Adjuntar hijos"
+                             id = "appendButton"></p>
+                       <p><input type = "text" id = "replace">
+                          <input type = "button" value = "Remplazar actual"
+                             id = "replaceButton"></p>
+                       <p><input type = "button" value = "Eliminar actual"
+                             id = "removeButton"></p>
+                       <p><input type = "button" value = "Obtener padre"
+                             id = "parentButton"></p>
+                    </form>
+            </div>
+        </section>
+
+    </body>
+</html>
